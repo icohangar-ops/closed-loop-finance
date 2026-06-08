@@ -1,0 +1,43 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Claude / Cowork local artifacts
+.claude/
+.cowork/
+.anthropic/
+
+# Office lock / temp
+~$*
+*.tmp
+*.bak
+
+# Logs
+*.log
+
+# Env & secrets — never commit
+.env
+.env.*
+*.pem
+*.key
+secrets/
+
+# Output / scratch
+/scratch/
+/tmp/
+
+# Large data exports — un-ignore explicitly when needed
+# *.xlsx
+# *.csv
+
+# CHP session artifacts (local only)
+.chp_registry.json
+.chp/sessions/
