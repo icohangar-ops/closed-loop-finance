@@ -188,7 +188,7 @@ For CFOs and finance leaders who want the methodology without standing up the ag
 
 1. **Clone** the repo to a folder you sync with Google Drive (Drive Desktop works fine).
    ```bash
-   git clone https://github.com/cubiczan/closed-loop-finance.git
+   git clone https://github.com/icohangar-ops/closed-loop-finance.git
    ```
 2. **Open `00 Claude Setup/project-instructions.md`** and replace the `[Company Name]` and `[NOTION_PAGE_URL]` tokens.
 3. **Create the Notion page + Decision Log database** following `00 Claude Setup/notion-setup.md`. Import `05 Decisions Log/Decision Log.csv` as the seed.
